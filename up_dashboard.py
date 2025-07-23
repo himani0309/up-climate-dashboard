@@ -15,7 +15,8 @@ def load_data():
     ssp245_climate = pd.read_excel("ssp245_future_climate_2024_2030_final_ready.xlsx")
     ssp585_climate = pd.read_excel("ssp585_future_climate_2024_2030_final_ready.xlsx")
 
-    return past_df, ssp245, ssp585, ssp245_climate, ssp585_climate
+    return past_df, ssp245_df, ssp585_df, ssp245_climate, ssp585_climate
+
 
 past_df, ssp245_df, ssp585_df, ssp245_climate, ssp585_climate = load_data()
 
